@@ -1,0 +1,49 @@
+.home {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 10rem;
+
+    .image {
+        flex: 1 1 45rem;
+    }
+
+    .image img {
+        width: 100%;
+    }
+
+    .content {
+        flex: 1 1 45rem;
+    }
+
+    .content h3 {
+        font-size: 4.5rem;
+        color: var(--black);
+        line-height: 1.8;
+        text-shadow: var(--text-shadow);
+    }
+
+    .content p {
+        font-size: 1.8rem;
+        color: var(--light-color);
+        line-height: 1.8;
+        padding: 1rem 0;
+    }
+
+}
+
+@media(max-width: 450px) {
+    
+}
+
+@media(max-width: 768px) {
+    
+    
+}
+
+@media(max-width: 991px) {
+    section {
+        padding: 2rem;
+    }
+}
