@@ -1,0 +1,29 @@
+#about {
+    .row {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .image {
+        flex: 1 1 45rem;
+    }
+    .image img {
+        width: 100%;
+    }
+    .content {
+        flex: 1 1 45rem;
+        h3 {
+            color: var(--black);
+            text-shadow: var(--text-shadow);
+            font-size: 4rem;
+            line-height: 1.5;
+        }
+        p {
+            color: var(--light-color);
+            padding: 1rem 0;
+            font-size: 1.5rem;
+            line-height: 1.8;
+        }
+    }
+}
