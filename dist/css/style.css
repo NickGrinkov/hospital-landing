@@ -194,13 +194,6 @@
   color: var(--light-color);
 }
 
-#services .box-container {
-  display: -ms-grid;
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-}
-
 #services .box {
   font-size: 1.8rem;
   background: #fff;
@@ -258,6 +251,53 @@
   padding: 1rem 0;
   font-size: 1.5rem;
   line-height: 1.8;
+}
+
+#doctors .box {
+  text-align: center;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  padding: 2.5rem;
+}
+
+#doctors .box img {
+  height: 20rem;
+  border: var(--border);
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+#doctors .box h3 {
+  color: var(--black);
+  font-size: 2.5rem;
+}
+
+#doctors .box span {
+  color: var(--green);
+  font-size: 1.5rem;
+}
+
+#doctors .box .share {
+  padding: 2rem 0;
+}
+
+#doctors .box .share a {
+  height: 5rem;
+  width: 5rem;
+  margin: 0.3rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  color: var(--green);
+  border: var(--border);
+  border-radius: 0.4rem;
+}
+
+#doctors .box .share a:hover {
+  background: var(--green);
+  color: #fff;
+  box-shadow: var(--box-shadow);
 }
 
 :root {
@@ -333,6 +373,13 @@ section {
 .heading span {
   text-transform: uppercase;
   color: var(--green);
+}
+
+.box-container {
+  display: -ms-grid;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
 }
 
 @media (max-width: 991px) {

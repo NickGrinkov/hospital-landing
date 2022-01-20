@@ -4,6 +4,7 @@
 @import 'icons';
 @import 'services';
 @import 'about';
+@import 'doctors';
 
 :root {
     --green: #16a085;
@@ -11,7 +12,7 @@
     --light-color: #777;
     --box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
     --text-shadow: .4rem .4rem 0 rgba(0, 0, 0, .2);
-    --border: .2rem solid var(--green)
+    --border: .2rem solid var(--green);
 }
 
 * {
@@ -81,3 +82,9 @@ section {
     color: var(--green);
 }
 
+
+.box-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+}
