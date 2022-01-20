@@ -2,6 +2,7 @@
 @import 'header';
 @import 'home';
 @import 'icons';
+@import 'services';
 
 :root {
     --green: #16a085;
@@ -25,11 +26,11 @@
 
 html {
     font-size: 62.5%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 section {
-    padding: 2rem 9%;
+    padding: 2rem 10%;
 }
 
 .btn {
@@ -60,6 +61,22 @@ section {
 
 .btn:hover span {
     background: #fff;
+    color: var(--green);
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 2rem;
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 5rem;
+    letter-spacing: .5rem;
+
+}
+
+.heading span {
+    text-transform: uppercase;
     color: var(--green);
 }
 
