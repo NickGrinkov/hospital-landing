@@ -220,13 +220,6 @@
   line-height: 1.5;
 }
 
-#about .row {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-
 #about .image {
   flex: 1 1 45rem;
 }
@@ -300,13 +293,6 @@
   box-shadow: var(--box-shadow);
 }
 
-#book .row {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-
 #book .row .image {
   flex: 1 1 45rem;
 }
@@ -344,6 +330,42 @@
 
 #book .row form .btn {
   padding: 1rem 3rem;
+}
+
+#review .box {
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  border-radius: 0.5rem;
+  padding: 2.5rem;
+  background: #fff;
+  text-align: center;
+  position: relative;
+}
+
+#review .box img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 0.5rem solid #fff;
+}
+
+#review .box h3 {
+  color: var(--black);
+  font-size: 2.2rem;
+  padding: 0.5rem;
+}
+
+#review .box .stars i {
+  color: var(--green);
+  font-style: 1.5rem;
+}
+
+#review .box p {
+  color: var(--light-color);
+  line-height: 1.8;
+  font-size: 1.5rem;
 }
 
 :root {
@@ -426,6 +448,13 @@ section {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 @media (max-width: 991px) {

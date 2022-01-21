@@ -6,6 +6,8 @@
 @import 'about';
 @import 'doctors';
 @import 'book';
+@import 'review';
+
 
 :root {
     --green: #16a085;
@@ -88,4 +90,11 @@ section {
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
