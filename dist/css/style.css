@@ -347,6 +347,32 @@
   line-height: 1.5;
 }
 
+.footer .box {
+  text-align: center;
+}
+
+.footer .box h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+  padding: 1rem;
+}
+
+.footer .box a {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--light-color);
+  padding: 1rem 0;
+}
+
+.footer .box a i {
+  padding-right: 0.5rem;
+  color: var(--green);
+}
+
+.footer .box a:hover i {
+  padding-right: 2rem;
+}
+
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -452,7 +478,8 @@ html {
   overflow-x: hidden;
 }
 
-section {
+section,
+footer {
   padding: 2rem 10%;
 }
 

@@ -1,0 +1,25 @@
+.footer {
+    .box {
+        text-align: center;
+    }
+    .box h3 {
+        font-size: 2.5rem;
+        color: var(--black);
+        padding: 1rem;
+    }
+    .box a {
+        display: block;
+        font-size: 1.5rem;
+        color: var(--light-color);
+        padding: 1rem 0;
+    }
+
+    .box a i {
+        padding-right: .5rem;
+        color: var(--green)
+    }
+
+    .box a:hover i {
+        padding-right: 2rem;
+    }
+}
